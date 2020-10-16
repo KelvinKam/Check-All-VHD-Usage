@@ -62,7 +62,6 @@ If($AzureFilesConnected -eq $true){
 
                 #Mount VHD
                 $FileFullName = $File.FullName
-                $DisplayFileFullName = $FileFullName -replace "$DiskLetter\\"
                 $Temp1 = $FileFullName -replace "$DiskLetter\\"
                 $Output+= "$Temp1,"
                 Write-Host -ForegroundColor Yellow "Mounting VHD... $FileFullName"
