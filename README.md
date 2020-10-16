@@ -9,7 +9,7 @@ This script is basically for checking VHDs which stored network drive, you may m
 # Behavior
   - This script will auto search and mount every VHDs than save the free space and total quota in csv file.
   - During script initial, it will use B:\ as temporary drive.
-  - It will auto ignore to mount VHD if that is in use by other programs.
+  - It will auto ignore to mount VHD if that is in use by other programs.<br>
 **Unexcepted error may be occurred if press "Ctrl+C" to terminate the script.**
 
 # Requirement
