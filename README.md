@@ -1,7 +1,7 @@
 # Check-All-VHD-Usage
 # Description
 I am not a coder, not writing great code...<br>
-This PowerShell script is for checking all VHD located in network drive. It is suitable for you for checking VHD usage especially for FSLogix.
+This PowerShell script is for checking all VHD located in network drive. It is suitable for you for checking VHD usage especially if you are using FSLogix.
 
 # Background
 This script is basically for checking VHDs which stored network drive, you may modify the script yourself for checking local disk VHDs.
