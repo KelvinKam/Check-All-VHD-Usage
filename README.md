@@ -7,7 +7,7 @@ This PowerShell script is for checking all VHD located in network drive. It is s
 This script is basically for checking VHDs which stored network drive, you may modify the script yourself for checking local disk VHDs.
 
 # Behavior
-  - This script will auto search and mount every VHDs than save the free space and total quota in csv file.
+  - This script will auto search and mount every VHD/VHDX then save the free space and total quota in csv file.
   - It will use B:\ to mount network drive, you can modify this by changing $DiskLetter.
   - It will auto ignore to mount VHD if that is in use by other programs.
   - **Unexcepted error may occurre if press "Ctrl+C" to terminate the script.**
